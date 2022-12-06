@@ -1,0 +1,64 @@
+main {
+    .section2 {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        font-size:xx-large;
+        color: blue;
+        cursor: pointer;
+    }
+     
+    .titulo {
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        color: blue;
+        font-size:large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+        padding-top: 30px;
+        padding-bottom: 30px;    
+    }
+    
+    .subtituloInicio {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #1233eb;
+        font-size: large;
+        font-style:normal;
+        align-items: center;
+        text-align: center;    
+    }
+    
+    .card {
+        style:"width: 18rem";
+        align-items: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(3, 1, 112, 0.767);
+        border-radius: 0.25rem;
+        color: blue;
+        text-align: center;
+        padding: left 10px; padding-bottom: 30px; padding-top: 10px;
+        margin-top: 20px; margin-bottom: 20px;
+  
+        .card-text {
+            color: #25262c;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: oblique;
+        }
+        .btn-primary {
+            color: #fff;
+            background-color: #1900f7;
+            border: 1px solid rgba(3, 1, 112, 0.767);
+        }
+        .btn-primary:hover {
+            color: #fff;
+            background-color: #5b5b72;
+            border-color: #3d82eb;
+        }
+    }
+}
